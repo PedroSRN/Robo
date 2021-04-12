@@ -1,0 +1,13 @@
+C:\Users\pedra\source\repos\Robo\Robo\obj\Debug\netcoreapp3.1\Robo.AssemblyInfoInputs.cache
+C:\Users\pedra\source\repos\Robo\Robo\obj\Debug\netcoreapp3.1\Robo.AssemblyInfo.cs
+C:\Users\pedra\source\repos\Robo\Robo\obj\Debug\netcoreapp3.1\Robo.csproj.CoreCompileInputs.cache
+C:\Users\pedra\source\repos\Robo\Robo\bin\Debug\netcoreapp3.1\Robo.exe
+C:\Users\pedra\source\repos\Robo\Robo\bin\Debug\netcoreapp3.1\Robo.deps.json
+C:\Users\pedra\source\repos\Robo\Robo\bin\Debug\netcoreapp3.1\Robo.runtimeconfig.json
+C:\Users\pedra\source\repos\Robo\Robo\bin\Debug\netcoreapp3.1\Robo.runtimeconfig.dev.json
+C:\Users\pedra\source\repos\Robo\Robo\bin\Debug\netcoreapp3.1\Robo.dll
+C:\Users\pedra\source\repos\Robo\Robo\bin\Debug\netcoreapp3.1\Robo.pdb
+C:\Users\pedra\source\repos\Robo\Robo\obj\Debug\netcoreapp3.1\Robo.dll
+C:\Users\pedra\source\repos\Robo\Robo\obj\Debug\netcoreapp3.1\Robo.pdb
+C:\Users\pedra\source\repos\Robo\Robo\obj\Debug\netcoreapp3.1\Robo.genruntimeconfig.cache
+C:\Users\pedra\source\repos\Robo\Robo\obj\Debug\netcoreapp3.1\Robo.csprojAssemblyReference.cache
