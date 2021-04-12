@@ -15,40 +15,57 @@ namespace Robo
         static void Main(string[] args)
         {
 
-            string E, D;
-            string opcao = "";
+            string i = "";
+            string localizacao;
 
-            Console.WriteLine("ROBO MARTE 1.0");
+            Console.WriteLine("ROBO MARTE 1.1");
 
-            Console.WriteLine("Posição Inicial de x e y é: 0,0");
+            Console.WriteLine("As dimenções da área a ser estudada são '5,5'");
 
-            Console.WriteLine("Digite M para o robo mover-se:");
+            Console.WriteLine("Digite a localização inicial do robo: ");
 
-            opcao = Console.ReadLine();
+            localizacao = Console.ReadLine();
+
+            Console.WriteLine("Digite as cordenadas q deseja q o robo faça 'M','E','D':");
+
+            i = Console.ReadLine();
+
+
+            string[,] instrucoes = new string[5,5];
+           
             
-            Console.ReadLine();
 
-            string[,] instrucoes = new string[5, 5];
-            Console.WriteLine("Coordenadas: ");
-            instrucoes[2, 2] = "posicao x e y é: 2,2";
-            instrucoes[2, 1] = "posicao x e y é: 2,1";
-            instrucoes[2, 0] = "posicao x e y é: 2,0";
-            instrucoes[1, 0] = "posicao x e y é: 1,0";
-            instrucoes[0, 0] = "posicao x e y é: 0,0";
+            /*Console.WriteLine(tamanho);*/
 
-
-            switch (opcao)
+            foreach (string cmd in instrucoes)
             {
-                case "M":
-                    foreach (string i in instrucoes)
-                    {
-                        Console.WriteLine("M");
-                       
-                        Console.WriteLine(i);
-                    }
-                    break;
+                if ( i == "m" || i == "M")
+                {
+                    Console.WriteLine("Moveu M");
+                   
+                    i = Console.ReadLine();
                     
                 }
+
+                else if (i == "d" || i == "D")
+                {
+                    Console.WriteLine("Girou 90° a direita");
+                    
+                    i = Console.ReadLine();
+
+                }
+
+                else if (i == "e" || i == "E")
+                {
+                    Console.WriteLine("Girou 90° a esquerda");
+                    
+                     i = Console.ReadLine();
+                    
+                }
+            }
+
+                    
+                         
 
 
         }
